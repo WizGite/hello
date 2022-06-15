@@ -1,0 +1,75 @@
+a{
+	padding: 70px;
+	color:#9C9C9C;
+	text-decoration: none;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	height: 70px;
+	background: black;
+	font-family: IBM Plex Mono;/*Cringe*/
+
+}
+.header__section{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.header__section1{
+	display: flex;
+	justify-content: flex-end;
+}
+.header__item{
+	padding: 10px 15px; /*вертикаль /горизонт */
+	font-size: 20px;
+	margin-left: 5px;
+}
+/* .main__body{
+	background: #1B1B1B;
+	height: 1000px;
+	width: auto;
+} */
+body {
+	margin:0; /*Дырки*/
+  background: #1B1B1B; /* Цвет фона */
+  color: #fc0; /* Цвет текста */
+	line-height: 1.6;/*Межстрочный отступ*/
+}
+*,
+*:before,
+*::after{
+	 box-sizing: border-box; /*Вопросы с паддингом */
+}
+.value__block{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	max-width: 650px;
+	/* background: #1B1B1B; */
+	/* background: red; */
+	padding: 100px;
+	margin: 150px;
+}
+.buttom{
+	width: 200px;
+	height: 40px;
+	background: #3F8E00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	font-size: large;
+	border-radius: 10%;
+}
+.card{
+	max-width: 1800px;
+	display: flex;
+	justify-content: flex-end;
+}
+.main__body{
+	display: flex;
+}
